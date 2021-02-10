@@ -16,7 +16,8 @@ SET "PID_FILE=%DATA_DIR%\mysql.pid"
 
 IF NOT EXIST "%TMP_DIR%" MKDIR "%TMP_DIR%"
 
-START "" /B "%SCRIPT_DIR%\base\bin\mysqld.exe" --defaults-file="%DEFAULTS_FILE%" --basedir="%BASE_DIR%" --datadir="%DATA_DIR%" --tmpdir="%TMP_DIR%" --pid-file="%PID_FILE%" --console
+:: Do not run with the --console flag; will cause hang due to no stdin/stdout.
+START "" /B "%SCRIPT_DIR%\base\bin\mysqld.exe" --defaults-file="%DEFAULTS_FILE%" --basedir="%BASE_DIR%" --datadir="%DATA_DIR%" --tmpdir="%TMP_DIR%" --pid-file="%PID_FILE%"
 
 START "" /B "%SCRIPT_DIR%\startservice.vbs" "%SCRIPT_DIR%\watchpid.bat" "%JAVA_PID%" "%PID_FILE%" ""
 
