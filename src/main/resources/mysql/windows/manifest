@@ -1,10 +1,64 @@
 /mysql/windows/.version
+/mysql/windows/base/bin/aria_chk.exe x
+/mysql/windows/base/bin/aria_dump_log.exe x
+/mysql/windows/base/bin/aria_ftdump.exe x
+/mysql/windows/base/bin/aria_pack.exe x
+/mysql/windows/base/bin/aria_read_log.exe x
+/mysql/windows/base/bin/innochecksum.exe x
+/mysql/windows/base/bin/mariabackup.exe x
+/mysql/windows/base/bin/mariadb-admin.exe x
+/mysql/windows/base/bin/mariadb-backup.exe x
+/mysql/windows/base/bin/mariadb-binlog.exe x
+/mysql/windows/base/bin/mariadb-check.exe x
+/mysql/windows/base/bin/mariadb-conv.exe x
+/mysql/windows/base/bin/mariadb-dump.exe x
+/mysql/windows/base/bin/mariadb-import.exe x
+/mysql/windows/base/bin/mariadb-install-db.exe x
+/mysql/windows/base/bin/mariadb-ldb.exe x
+/mysql/windows/base/bin/mariadb-plugin.exe x
+/mysql/windows/base/bin/mariadb-show.exe x
+/mysql/windows/base/bin/mariadb-slap.exe x
+/mysql/windows/base/bin/mariadb-tzinfo-to-sql.exe x
+/mysql/windows/base/bin/mariadb-upgrade-service.exe x
+/mysql/windows/base/bin/mariadb-upgrade-wizard.exe x
+/mysql/windows/base/bin/mariadb-upgrade.exe x
+/mysql/windows/base/bin/mariadb.exe x
+/mysql/windows/base/bin/mariadbd.exe x
+/mysql/windows/base/bin/mariadbd.pdb
+/mysql/windows/base/bin/mbstream.exe x
+/mysql/windows/base/bin/my_print_defaults.exe x
+/mysql/windows/base/bin/myisam_ftdump.exe x
+/mysql/windows/base/bin/myisamchk.exe x
+/mysql/windows/base/bin/myisamlog.exe x
+/mysql/windows/base/bin/myisampack.exe x
+/mysql/windows/base/bin/myrocks_hotbackup
 /mysql/windows/base/bin/mysql.exe x
+/mysql/windows/base/bin/mysql_config.pl
+/mysql/windows/base/bin/mysql_convert_table_format.pl
 /mysql/windows/base/bin/mysql_install_db.exe x
+/mysql/windows/base/bin/mysql_ldb.exe x
+/mysql/windows/base/bin/mysql_plugin.exe x
+/mysql/windows/base/bin/mysql_tzinfo_to_sql.exe x
 /mysql/windows/base/bin/mysql_upgrade.exe x
+/mysql/windows/base/bin/mysql_upgrade_service.exe x
+/mysql/windows/base/bin/mysql_upgrade_wizard.exe x
+/mysql/windows/base/bin/mysqladmin.exe x
+/mysql/windows/base/bin/mysqlbinlog.exe x
 /mysql/windows/base/bin/mysqlcheck.exe x
 /mysql/windows/base/bin/mysqld.exe x
+/mysql/windows/base/bin/mysqld_multi.pl
+/mysql/windows/base/bin/mysqldump.exe x
+/mysql/windows/base/bin/mysqldumpslow.pl
+/mysql/windows/base/bin/mysqlhotcopy.pl
+/mysql/windows/base/bin/mysqlimport.exe x
+/mysql/windows/base/bin/mysqlshow.exe x
+/mysql/windows/base/bin/mysqlslap.exe x
+/mysql/windows/base/bin/perror.exe x
+/mysql/windows/base/bin/replace.exe x
 /mysql/windows/base/bin/server.dll
+/mysql/windows/base/bin/server.lib
+/mysql/windows/base/bin/server.pdb
+/mysql/windows/base/bin/sst_dump.exe x
 /mysql/windows/base/lib/libmariadb.dll
 /mysql/windows/base/lib/libmariadb.lib
 /mysql/windows/base/lib/libmariadb.pdb
